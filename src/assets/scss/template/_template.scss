@@ -1,0 +1,107 @@
+// Client Styles
+//
+// Global
+// Header
+// Footer
+// Hero
+// Features
+// Components
+//
+
+
+// Global
+
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+	line-height: 1.25;
+}
+
+blockquote {
+	color: $dark-gray;
+	p {
+		color: $dark-gray;
+	}
+}
+
+hr {
+	border-color: $medium-gray;
+	border-style: solid;
+	border-width: 1px 0 0;
+}
+
+.lead {
+	font-weight: 500;
+}
+
+
+// Header
+
+.logo {
+	width: 120px;
+	height: auto;
+}
+
+.header .columns {
+	padding-top: $global-padding * 1.5;
+	padding-bottom: $global-padding * 1.5;
+}
+
+
+// Footer
+
+.info-terms {
+	text-align: center;
+	small {
+		color: $dark-gray;
+	}
+}
+
+
+// Hero
+
+.hero-image {
+	margin-bottom: $global-margin * 3;
+}
+
+
+// Features
+
+.feature {
+	text-align: center;
+}
+
+.feature-title {
+	margin-bottom: $global-margin / 2;
+	color: $primary-color;
+
+	span {
+		display: block;
+		font-size: 24px;
+	}
+}
+
+.feature-title-secondary {
+	color: $dark-gray;
+}
+
+
+// Components
+
+table.button-cta {
+	margin: $global-margin * 2 0;
+}
+
+table.button table td a {
+	font-size: 20px;
+	font-weight: 400;
+}
